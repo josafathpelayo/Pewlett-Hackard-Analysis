@@ -5,22 +5,22 @@
 The purpose of this analysis is to determine the numnber of retiring employees per there title and to identify employeees who are eligible to perticipate in a mentoship program. Specifically the retirement employess are those who who were born between 1952 and 1955. The employees who qualify to be mentors for new onboarding hires were selected by birth dates between January 1, 1965 and December 31, 1965.
 
 ## Results
-- In the table 'Ret_emp_titles' [retirement_titles](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/New%20folder/retirement_titles.png   ) 
-- Each employee born between 1952 and 1955 was taken in count for from the Employees table and joined with the Titles table.
-- Table shows each employee, but has duplicates names in the table as some employees got promoted and has more than one title as the progressed through the ranks of Pewlett-Hackard.
-- Table was saved as retirement_titles.csv in the data folder.
+- In the table 'Ret_emp_titles' [retirement_titles](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/retirement_titles.png) 
+  - Each employee born between 1952 and 1955 was taken in count for from the Employees table and joined with the Titles table.
+  - Table shows each employee, but has duplicates names in the table as some employees got promoted and has more than one title as the progressed through the ranks of Pewlett-Hackard.
+  - Table was saved as retirement_titles.csv in the data folder.
 
-- In the table 'new_ret_titles'[Unique_titles](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/New%20folder/Unique_titles.png )
-- Duplicate names from the 'Ret_emp_titles' were taken out by using the distinct on function as seen in 'new_ret_titles'.
-- Table was saved as unique_titles.csv in the data folder.
+- In the table 'new_ret_titles'[Unique_titles](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/Unique_titles.png)
+  - Duplicate names from the 'Ret_emp_titles' were taken out by using the distinct on function as seen in 'new_ret_titles'.
+  - Table was saved as unique_titles.csv in the data folder.
 
-- In the table 'ret_titles_count' [retiring_titles](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/New%20folder/retiring_titles.png)
-- The count of exactly each employee title was gathered and placed into a table.
-- Table was saved as retiring_titles.csv in the data folder.
+- In the table 'ret_titles_count' [retiring_titles](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/retiring_titles.png)
+  - The count of exactly each employee title was gathered and placed into a table.
+  - Table was saved as retiring_titles.csv in the data folder.
 
-- In table 'mentor' [mentorship_eligibility] (https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/New%20folder/Mentor.png)
-- Three tables were joined together (Employees, Department Employee, & Titles) to get the employees who can potentially be mentors for new employees
-- Code for the table[mentor_query](  )
+- In table 'mentor' [mentorship_eligibility] (https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/Mentor.png)
+  - Three tables were joined together (Employees, Department Employee, & Titles) to get the employees who can potentially be mentors for new employees
+  - Code for the table[mentor_query](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/Mentor%20query.png)
 
 
 ## Summary
