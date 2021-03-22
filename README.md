@@ -18,7 +18,7 @@ The purpose of this analysis is to determine the numnber of retiring employees p
   - The count of exactly each employee title was gathered and placed into a table.
   - Table was saved as retiring_titles.csv in the data folder.
 
-- In table 'mentor' [mentorship_eligibility] (https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/Mentor.png)
+- In table 'mentor' [mentorship_eligibility](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/Mentor.png)
   - Three tables were joined together (Employees, Department Employee, & Titles) to get the employees who can potentially be mentors for new employees
   - Code for the table[mentor_query](https://github.com/josafathpelayo/Pewlett-Hackard-Analysis/blob/main/Pictures/Mentor%20query.png)
 
